@@ -48,3 +48,32 @@ h1{
   transform: rotate(25deg);
   width: 65%;
 }
+
+#features{
+  padding: 7% 10%;
+}
+
+.feature{
+  /* margin: 100px auto; */
+  text-align: center;
+  padding: 5%;
+}
+
+.feature h3{
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+.feature-icon{
+  font-size: 5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+.feature p{
+  color: #8f8f8f;
+}
