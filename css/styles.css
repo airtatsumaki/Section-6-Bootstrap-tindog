@@ -2,7 +2,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-#title{
+.pink-background{
   background-color: #ff4c68;
   color: white;
 }
@@ -69,9 +69,11 @@ h1{
   }
 }
 
+.section-padding{
+  padding: 7% 10%;
+}
 
 #features{
-  padding: 7% 10%;
   background-color: white;
   position: relative;
 }
@@ -102,14 +104,7 @@ h1{
 }
 
 #testimonials{
-  /* padding: 7% 10%; */
-  text-align: center;
-  background-color: #ef8172;
   color: white
-}
-
-.carousel-item{
-  padding: 7% 10%;
 }
 
 .testimonial-image{
@@ -118,9 +113,12 @@ h1{
   margin: 20px;
 }
 
-#press{
+.orange-background{
   background-color: #ef8172;
   text-align: center;
+}
+
+#press{
   padding-bottom: 3%;
 }
 
@@ -139,10 +137,7 @@ h1{
 }
 
 #cta{
-  background-color: #ff4c68;
   text-align: center;
-  padding: 7% 10%;
-  color: white;
 }
 
 #cta h3{
@@ -151,13 +146,11 @@ h1{
   /* this is Montserrat-light. must use font-wight 300 */
   font-family: 'Montserrat';
   font-weight: 900;
-  
 }
 
 #footer{
   background-color: white;
   text-align: center;
-  padding: 7% 10%;
   line-height: 0.2rem;
 }
 
